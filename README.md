@@ -81,7 +81,6 @@ For the resolution to succeed, a valid file must eventually be found. webpack th
 # Code
 
 I want to touch on 2 methods specifically `addAppToHosts` and `removeAppFromHosts`.
-I was not 100% sure what was the objective of the task, I couldn't completely understand it. It mentions in the test
 
 > **These methods should
 > update the list of applications with higher Apdex whenever any of these methods is called**
