@@ -1,0 +1,16 @@
+{
+  "babelrc": false,
+  "presets": [
+    ["env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": ["chrome >= 59"]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-async-to-generator"
+  ]
+}

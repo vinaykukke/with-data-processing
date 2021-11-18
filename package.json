@@ -1,0 +1,30 @@
+{
+  "name": "no-framework",
+  "version": "1.0.0",
+  "description": "This is a sample without using any frameworks to showcase network requests and data processing",
+  "scripts": {
+    "build": "node src/build/webpack.js",
+    "start": "yarn build && nodemon src/server/index.js",
+    "test": "jest"
+  },
+  "author": "Vinay Kukke <kukke06@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.1.4",
+    "nodemon": "^1.14.11",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}

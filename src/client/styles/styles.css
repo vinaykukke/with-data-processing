@@ -1,0 +1,90 @@
+body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  max-width: 940px;
+  margin: 10px auto;
+}
+
+p {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+#root {
+  margin-top: 15px;
+}
+
+.title {
+  color: black;
+  font-size: 35px;
+  line-height: 43px;
+  display: inline-block;
+}
+
+.email {
+  display: inline-block;
+}
+
+.input-container, .title-container {
+  display: inline-block;
+}
+
+
+.title-container {
+  margin-right: 30px;
+}
+
+.card {
+  margin: 15px auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  padding: 30px;
+}
+
+.inline {
+  display: inline-block;
+  margin: 15px;
+  max-width: 375px;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+.card-body {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding-top: 23px;
+}
+
+.apdex {
+  color: #4A4A4A;
+  opacity: 0.62;
+  line-height: 19px;
+  font-size: 13px;
+}
+
+.app-name {
+  color: #4A4A4A;
+  line-height: 19px;
+  font-size: 16px;
+  max-width: 77%;
+}

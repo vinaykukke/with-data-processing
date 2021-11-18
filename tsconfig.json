@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "jsx": "Preserve",
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "sourceMap": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ESNext",
+    "paths": {
+      "Types": ["src/client/types"],
+      "Helpers/*": ["src/client/helpers/*"]
+    }
+  }
+}
